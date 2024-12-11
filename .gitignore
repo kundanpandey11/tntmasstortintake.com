@@ -1,0 +1,105 @@
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.sqlite3
+
+# Django specific
+*.log
+*.pot
+db.sqlite3
+db.sqlite3-journal
+*.py[cod]
+*.swp
+
+# Environment variables and settings
+.env
+*.env
+
+# macOS specific
+.DS_Store
+
+# Linux specific
+*.~lock.*
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Virtual environments
+venv/
+env/
+env.bak/
+__venv__/
+
+# pip specific
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Coverage
+.coverage
+htmlcov/
+.coverage.*
+
+# Test results
+.junit/
+
+# Translations
+*.mo
+
+# Build and distribution
+*.egg-info/
+*.eggs/
+*.wheel/
+build/
+dist/
+develop-eggs/
+
+# Node.js specific (if using npm/yarn for frontend)
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log*
+*.gz
+*.lock
+
+# IDE specific
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# VSCode-specific folders
+.vscode/
+.vscode-test/
+settings.json
+workspaceStorage
+
+# pyenv
+.python-version
+
+# Migrations
+migrations/
+*/migrations/
+
+# Static files
+staticfiles/
+
+
+# Media files
+media/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Django cache
+*.cache
+
+# Secret Key
+.secret_key
+
+# Temporary files
+*.tmp
